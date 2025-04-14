@@ -118,6 +118,12 @@ a:hover {
   text-decoration: underline; /* Optional: Add underline on hover */
 }
 
+/* Style for the current page link */
+ul li a.active {
+  color: #32687e; /* Same color as hover */
+  text-decoration: underline; /* Optional: Add underline */
+}
+
 /* Gallery container */
 .gallery {
   display: grid;
