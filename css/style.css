@@ -2,25 +2,22 @@
 
 h1 {color: #c4cf30; font-size: 85px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
 
-p {color: #32687e; font-size: 20px; text-align: center;font-family:"Courier New"; font-weight:heavy; font-stretch:narrower;}
+p {color: #000000; font-size: 20px; text-align: center;font-family:"Courier New"; font-weight:heavy; font-stretch:narrower;}
 
 
 #two {font-family: Garamond; font-size: 12px;}
 
 
-ul {font-family: "Courier New"; color: #32687e; font-size: 14px; list-style-type: none; margin: 0; text-align: center; padding: 0; margin-bottom: 20px}
+ul {font-family: "Courier New"; color: #000000; font-size: 18px; list-style-type: none; margin: 0; text-align: center; padding: 0; margin-bottom: 20px}
 
 li {display: inline;}
 
 h2 {color: hsl(187, 36%, 66%); font-size: 49px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
 
-/* Make navigation menu text bold */
-ul li a {
-  font-weight: bold;
-}
+
 /* Style for the current page link */
 ul li a.active {
-  color: #32687e; /* Same color as hover */
+  color: #000000; /* Same color as hover */
   text-decoration: none; /* Remove underline if not needed */
   outline: none; /* Remove browser's default focus outline */
   background: none; /* Ensure no background highlight */
