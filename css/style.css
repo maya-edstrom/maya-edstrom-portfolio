@@ -21,6 +21,9 @@ ul li a {
 ul li a.active {
   color: #32687e; /* Same color as hover */
   font-weight: bold; /* Make it bold */
+  text-decoration: none; /* Remove underline if not needed */
+  outline: none; /* Remove browser's default focus outline */
+  background: none; /* Ensure no background highlight */
 }
 
 * {box-sizing:border-box}
