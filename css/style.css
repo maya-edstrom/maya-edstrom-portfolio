@@ -30,7 +30,7 @@ ul li a img {
 /* Style for the current page link */
 ul li a.active {
   color: hsl(187, 36%, 66%); /* Same color as hover */
-  text-decoration: none; /* Remove underline if not needed */
+  text-decoration: underline; /* Remove underline if not needed */
   font-weight: bold; /* Make it bold */
   outline: none; /* Remove browser's default focus outline */
   background: none; /* Ensure no background highlight */
