@@ -128,6 +128,7 @@ a:hover {
   border-radius: 8px;
   text-align: center;
   background-color: #f9f9f9;
+  cursor: pointer; /* Makes the mouse cursor react as a clickable URL */
 }
 
 .gallery-item img {
@@ -184,3 +185,4 @@ a:hover {
   font-weight: bold;
   cursor: pointer;
 }
+
