@@ -2,13 +2,13 @@
 
 h1 {color: #c4cf30; font-size: 85px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
 
-p {color: rgb(103, 71, 13); font-size: 20px; text-align: center;font-family:"Courier New"; font-weight:heavy; font-stretch:narrower;}
+p {color: #32687e; font-size: 20px; text-align: center;font-family:"Courier New"; font-weight:heavy; font-stretch:narrower;}
 
 
 #two {font-family: Garamond; font-size: 12px;}
 
 
-ul {font-family: "Courier New"; color: black; font-size: 30px; list-style-type: none; margin: 0; text-align: center; padding: 0; margin-bottom: 20px}
+ul {font-family: "Courier New"; color: #32687e; font-size: 20px; list-style-type: none; margin: 0; text-align: center; padding: 0; margin-bottom: 20px}
 
 li {display: inline;}
 
@@ -21,7 +21,6 @@ ul li a {
 /* Style for the current page link */
 ul li a.active {
   color: #32687e; /* Same color as hover */
-  font-weight: bold; /* Make it bold */
   text-decoration: none; /* Remove underline if not needed */
   outline: none; /* Remove browser's default focus outline */
   background: none; /* Ensure no background highlight */
