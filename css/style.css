@@ -13,6 +13,11 @@ li {color: black; display: inline;}
 
 h2 {color: #dadae0; font-size: 49px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
 
+/* Make navigation menu text bold */
+ul li a {
+  font-weight: bold;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
