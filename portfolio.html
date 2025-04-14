@@ -23,8 +23,8 @@
  </div> 
 
  <!-- Example HTML for a gallery -->
-<div class="gallery">
-	<div class="gallery-item">
+ <div class="gallery">
+	<div class="gallery-item" onclick="openLightbox(this)" data-description="Digital map layout created using ArcGIS Pro and Adobe Illustrator.">
 	  <img src="assets/peatlands.jpg" alt="Precious Peatlands">
 	  <p>PRECIOUS PEATLANDS</p>
 	</div>
@@ -39,11 +39,15 @@
 	<!-- Add more items as needed -->
   </div>
  
-  <div class = "slideshow-container"
-  	<div class="mySlides fade">
-	<img src="assets/peatlands.jpg" style="width:100%">
-	<div class="text">PRECIOUS PEATLANDS</div>
  
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+	<span class="close" onclick="closeLightbox()">&times;</span>
+	<img id="lightbox-img" class="lightbox-img" src="" alt="">
+	<p id="lightbox-description" class="lightbox-description"></p>
+  </div>
+
+
 <h2> PRECIOUS PEATLANDS </h2>
 
 
@@ -103,5 +107,26 @@
  <center><img src="assets/foodshed2.jpg" alt="Foodshed Project pt 2" width="900" height="550" class="center"></center>
   <center><img src="assets/foodshed1.jpg" alt="Foodshed Project pt 1" width="250" height="550" class="center"></center>
 
-
+  <script>
+	// Open the lightbox
+	function openLightbox(item) {
+	  const lightbox = document.getElementById("lightbox");
+	  const lightboxImg = document.getElementById("lightbox-img");
+	  const lightboxDescription = document.getElementById("lightbox-description");
+  
+	  // Set the image and description
+	  lightboxImg.src = item.querySelector("img").src;
+	  lightboxDescription.textContent = item.getAttribute("data-description");
+  
+	  // Show the lightbox
+	  lightbox.style.display = "flex";
+	}
+  
+	// Close the lightbox
+	function closeLightbox() {
+	  const lightbox = document.getElementById("lightbox");
+	  lightbox.style.display = "none";
+	}
+  </script>
+  
  </body>
