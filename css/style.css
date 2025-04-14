@@ -107,13 +107,8 @@ a {
   text-decoration: none; /* Optional: Remove underline */
 }
 
-/* Change the color when the link is clicked (visited) */
-a:visited {
-  color: #32687e; /* Replace with your desired color */
-}
-
 /* Optional: Change the color when hovering over the link */
 a:hover {
-  color: #c875d491; /* Replace with your desired color */
+  color: #32687e; /* Replace with your desired color */
   text-decoration: underline; /* Optional: Add underline on hover */
 }
