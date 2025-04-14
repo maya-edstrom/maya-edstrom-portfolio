@@ -15,8 +15,8 @@ li {display: inline;}
 h2 {color: hsl(0, 0%, 0%); font-size: 49px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
 
 ul li a img {
-  vertical-align: middle; /* Aligns the icon with the text */
-  margin-right: 5px; /* Adds spacing between the icon and text */
+  display: block; /* Makes the image appear above the text */
+  margin: 0 auto; /* Centers the image horizontally */
 }
 
 /* Style for the current page link */
