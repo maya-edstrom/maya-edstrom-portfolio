@@ -100,3 +100,20 @@ h2 {color: #dadae0; font-size: 49px; text-align: center; font-family:Garamond; m
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Change the default link color */
+a {
+  color: hsl(187, 36%, 66%); /* Replace with your desired color */
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+/* Change the color when the link is clicked (visited) */
+a:visited {
+  color: #32687e; /* Replace with your desired color */
+}
+
+/* Optional: Change the color when hovering over the link */
+a:hover {
+  color: #c875d491; /* Replace with your desired color */
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
