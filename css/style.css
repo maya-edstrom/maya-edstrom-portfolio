@@ -14,6 +14,14 @@ li {display: inline;}
 
 h2 {color: hsl(0, 0%, 0%); font-size: 49px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
 
+ul li a {
+font-weight: bold; /* Makes the text bold */
+  color: hsl(187, 36%, 66%); /* Default color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Add some padding around the text */
+  display: inline-block; /* Makes the link behave like a button */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+}
 ul li a img {
   display: block; /* Makes the image appear above the text */
   margin: 0 auto; /* Centers the image horizontally */
