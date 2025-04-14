@@ -12,7 +12,7 @@ ul {font-family: "Courier New"; color: #000000; font-size: 18px; list-style-type
 
 li {display: inline;}
 
-h2 {color: hsl(187, 36%, 66%); font-size: 49px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
+h2 {color: hsl(0, 0%, 0%); font-size: 49px; text-align: center; font-family:Garamond; margin-bottom: 0px;}
 
 ul li a img {
   vertical-align: middle; /* Aligns the icon with the text */
@@ -21,8 +21,9 @@ ul li a img {
 
 /* Style for the current page link */
 ul li a.active {
-  color: #000000; /* Same color as hover */
+  color: hsl(187, 36%, 66%); /* Same color as hover */
   text-decoration: none; /* Remove underline if not needed */
+  font-weight: bold; /* Make it bold */
   outline: none; /* Remove browser's default focus outline */
   background: none; /* Ensure no background highlight */
 }
