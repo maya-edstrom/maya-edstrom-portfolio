@@ -20,7 +20,7 @@ ul li a {
 /* Style for the current page link */
 ul li a.active {
   color: #32687e; /* Same color as hover */
-  text-decoration: underline; /* Optional: Add underline */
+  font-weight: bold; /* Make it bold */
 }
 
 * {box-sizing:border-box}
