@@ -196,7 +196,7 @@ a:hover {
 .lightbox-description {
   color: white;
   text-align: center;
-  font-family: "Arial", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 18px;
   margin: 0 20px; /* Add padding for better readability */
 }
