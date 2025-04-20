@@ -181,23 +181,24 @@ a:hover {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  flex-direction: column; /* Stack image and description vertically */
 }
 
 /* Lightbox image */
 .lightbox-img {
-  max-width: 80%;
+  max-width: 90%;
   max-height: 80%;
-  margin: auto;
-  display: block;
+  object-fit: contain; /* Prevent image stretching */
+  margin-bottom: 20px; /* Add space below the image */
 }
 
 /* Lightbox description */
 .lightbox-description {
   color: white;
   text-align: center;
-  margin-top: 20px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Arial", sans-serif;
   font-size: 18px;
+  margin: 0 20px; /* Add padding for better readability */
 }
 
 /* Close button */
