@@ -211,3 +211,60 @@ a:hover {
   font-weight: bold;
   cursor: pointer;
 }
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.carousel-item {
+  display: none; /* Hide all items by default */
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.carousel-item.active {
+  display: block; /* Show the active item */
+  position: relative;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
